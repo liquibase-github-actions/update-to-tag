@@ -6,7 +6,7 @@ Deploy changes from the changelog file to the specified tag
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/update-to-tag@v4.23.1
+- uses: liquibase-github-actions/update-to-tag@v4.23.2
   with:
     # The root changelog
     # string
@@ -95,7 +95,7 @@ The liquibase update to tag action accepts all valid liquibase global options as
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/update-to-tag@v4.23.1
+  - uses: liquibase-github-actions/update-to-tag@v4.23.2
     with:
       changelogFile: ""
       tag: ""
